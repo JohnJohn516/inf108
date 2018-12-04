@@ -1,0 +1,14 @@
+moneyTotal=startingMoney;
+moneyInterest=startingMoney;
+
+print(moneyTotal)
+print(moneyInterest)
+print()
+
+for year in range(1,numberYears+1):
+  moneyTotal=moneyTotal+12
+  moneyInterest=moneyInterest*(1.07)
+  print(year)
+  print(moneyTotal)
+  print(moneyInterest)
+  print()
